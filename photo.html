@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我们的小窝</title>
+<link href="css/index.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <style type="text/css">
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+    <p><font style="font-weight:bold;font-size:135%">死生契阔，与子成说。执子之手，与子偕老。</font></p>
+</header>
+<!--nav begin-->
+<div id="nav">
+  <ul>
+    <li><a href="index.html">首页</a></li>
+    <li><a href="mine.html">关于我</a></li>
+    <li><a href="photo.html">照片墙</a></li>
+    <li><a href="word.html">文字记忆</a></li>
+    <li><a href="message.html">留言板</a></li>
+  </ul>
+</div>
+<!--nav end-->
+<div class="blank"></div>
+<div class="banner">
+  <ul class="boy_girl">
+    <li class="girlimg"><a href="/"><span>关于我</span></a></li>
+    <li class="boyimg"><a href="/"><span>关于他</span></a></li>
+  </ul>
+  <ul class="texts">
+    <p><img src="images/t-1.png" alt="人生，是一场盛大的遇见"></p>
+    <p><img src="images/t-2.png" alt="若你懂得，就请珍惜。"></p>
+    <p><img src="images/t-3.png" alt="无论下多久的雨，最后都会有彩虹；无论你多么悲伤，要相信幸福在前方等候"></p>
+  </ul>
+</div>
+<div class="blank"></div>
+<div class="memorial_day">
+  <div class="time_axis"></div>
+  <ul>
+    <li class="n1"><a href="/">相识</a>
+      <div class="dateview">2016-06-27</div>
+    </li>
+    <li class="n2"><a href="/">相恋</a>
+      <div class="dateview">2016-08-08</div>
+    </li>
+    <li class="n3"><a href="/">相爱</a>
+      <div class="dateview">2018-02-11</div>
+    </li>
+	<li class="n4"><a href="/">相亲</a>
+      <div class="dateview"></div>
+    </li>
+  </ul>
+</div>
+<div class="blank"></div>
+<article>
+  <div class="l_box">
+    <div class="about_me">
+      <h2>关于我</h2>
+      <ul>
+        <img src="images/girl.jpg">
+        <p>名字：刘胖子</p>
+        <p>老公：胡胖子</p>
+        <p>爱好：欺负胡胖子</p>
+        <p>口头禅：我要抱抱！我要抱！</p>
+      </ul>
+    </div>
+    <div class="about_he">
+      <h2>关于他</h2>
+      <ul>
+        <img src="images/boy.jpg">
+        <p>名字：胡胖子</p>
+        <p>老婆：刘胖子</p>
+        <p>爱好：被刘胖子欺负</p>
+        <p>口头禅：我要喝水！我要水！</p>
+      </ul>
+    </div>
+    <div class="newslist">
+      <h2>阅读书籍</h2>
+      <ul>
+        <li><a href="http://www.pingfandeshijie.cn/">路遥《平凡的世界》</a></li>
+        <li><a href="http://www.99lib.net/book/7230/index.htm">路遥《人生》</a></li>
+        <li><a href="http://www.kanunu8.com/book3/7193/159218.html">余华《活着》</a></li>
+        <li><a href="http://www.kanunu8.com/book3/7196/">余华《许三观卖血记》</a></li>
+        <li><a href="http://www.langtuteng.org/">姜戎《狼图腾》</a></li>
+        <li><a href="http://www.kanunu8.com/files/world/201102/1598.html">乔斯坦·贾德《苏菲的世界》</a></li>
+      </ul>
+    </div>
+    <div class="viny">
+      <ul>
+        <dl>
+          <dt class="art"><img src="images/artwork.png" alt="专辑"></dt>
+          <dd class="icon-song"><span></span>我们的时光.mp3</dd>
+          <dd class="icon-artist"><span></span>赵雷</dd>
+          <dd class="icon-album"><span></span>《吉姆餐厅》</dd>
+          <dd class="music">
+            <audio autoplay="autoplay" src="music/我们的时光.mp3" controls="controls" loop="loop"></audio>
+          </dd>
+          <!--也可以添加loop属性 音频加载到末尾时，会重新播放-->
+        </dl>
+      </ul>
+    </div>
+  </div>
+  <!--l_box end -->
+  <div class="r_box">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/slide01.jpg" /></div>
+        <div class="swiper-slide"><img src="images/slide02.jpg" /></div>
+        <div class="swiper-slide"><img src="images/slide03.jpg" /></div>
+        <div class="swiper-slide"><img src="images/slide04.jpg" /></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</article>
+<footer>
+  <p>Design by 胡胖子</p>
+</footer>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
